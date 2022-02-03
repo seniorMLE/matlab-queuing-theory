@@ -1,0 +1,10 @@
+function resul = Scenario1()
+m = 64;
+deflect_p = 0.2;
+traffic_load = 0.62:0.01:0.8;
+q_m_1 = traffic_load.^m/factorial(m);
+q_m_2 = 
+for 
+
+burst_loss_p = (q_m)*(1-deflect_p+deflect_p*q_m);
+
